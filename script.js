@@ -4,7 +4,8 @@ const summaries = [
     points: [
       "La empresa y el propietario son la misma persona ante la ley (personalidad fisica).",
       "Responsabilidad ilimitada: responde con el dinero del negocio y con sus bienes personales.",
-      "Tributa por IRPF sobre los beneficios obtenidos."
+      "Tributa por IRPF sobre los beneficios obtenidos.",
+      "Suele ser una forma rapida de iniciar actividad, con pocos tramites de constitucion."
     ]
   },
   {
@@ -12,7 +13,8 @@ const summaries = [
     points: [
       "Se parece a la empresa individual en su funcionamiento.",
       "La responsabilidad no alcanza a la vivienda habitual en caso de deudas.",
-      "Protege parte del patrimonio personal frente al riesgo empresarial."
+      "Protege parte del patrimonio personal frente al riesgo empresarial.",
+      "Mantiene obligacion de cumplir registro y publicidad para conservar la proteccion."
     ]
   },
   {
@@ -20,7 +22,9 @@ const summaries = [
     points: [
       "Tiene personalidad juridica propia, separada de la de sus socios.",
       "Responsabilidad limitada al capital aportado por cada socio.",
-      "El capital se divide en acciones que pueden comprarse y venderse libremente."
+      "El capital se divide en acciones que pueden comprarse y venderse libremente.",
+      "Suele usarse para proyectos grandes por su facilidad para captar inversion.",
+      "Tributa por Impuesto sobre Sociedades."
     ]
   },
   {
@@ -28,7 +32,9 @@ const summaries = [
     points: [
       "Tiene personalidad juridica y responsabilidad limitada.",
       "El capital se divide en participaciones, que no se transmiten libremente como acciones.",
-      "Puede constituirse con bajo capital inicial y puede ser unipersonal."
+      "Puede constituirse con bajo capital inicial y puede ser unipersonal.",
+      "Se adapta bien a pequenas y medianas empresas con socios de confianza.",
+      "Tributa por Impuesto sobre Sociedades."
     ]
   },
   {
@@ -36,7 +42,9 @@ const summaries = [
     points: [
       "Comparte rasgos de la SL.",
       "Pensada para pequenos negocios definidos por la ley.",
-      "Permite tramites de constitucion mas rapidos y en linea."
+      "Permite tramites de constitucion mas rapidos y en linea.",
+      "Busca simplificar el arranque de nuevos proyectos empresariales.",
+      "Tributa por Impuesto sobre Sociedades, como las sociedades de capital."
     ]
   },
   {
@@ -44,7 +52,9 @@ const summaries = [
     points: [
       "Se crea para un objetivo comun de sus socios (por ejemplo, comercializar productos).",
       "Prima la colaboracion entre miembros sobre el interes individual.",
-      "Suele vincularse a actividades productivas locales (naranjas, vino, aceite, etc.)."
+      "Suele vincularse a actividades productivas locales (naranjas, vino, aceite, etc.).",
+      "La gestion suele ser democratica, con participacion activa de los socios.",
+      "Tributa por Impuesto sobre Sociedades, con posible regimen fiscal especifico."
     ]
   },
   {
@@ -52,7 +62,18 @@ const summaries = [
     points: [
       "Pueden ser una limitada laboral (SLL) o anonima laboral (SAL).",
       "Mantienen rasgos de SL o SA, respectivamente.",
-      "Su particularidad principal esta en el tipo de socios y participacion laboral."
+      "Su particularidad principal esta en el tipo de socios y participacion laboral.",
+      "Buscan combinar propiedad y trabajo en la propia empresa.",
+      "Como sociedades, tributan por Impuesto sobre Sociedades."
+    ]
+  },
+  {
+    title: "Fiscalidad y obligaciones comunes",
+    points: [
+      "Empresa individual y emprendedor de responsabilidad limitada: IRPF por beneficios empresariales.",
+      "Sociedades (SA, SL, SLNE, cooperativas, laborales): Impuesto sobre Sociedades.",
+      "Segun la actividad, tambien existen obligaciones como IVA e impuestos/tributos locales.",
+      "Elegir forma juridica afecta responsabilidad, fiscalidad y tramites administrativos."
     ]
   }
 ];
@@ -132,6 +153,191 @@ const questionBank = [
     question: "Segun el contenido extraido, la SL puede ser:",
     options: ["Solo de muchos socios", "Solo publica", "Unipersonal", "Unicamente cooperativa"],
     answer: 2
+  },
+  {
+    question: "Que figura juridica separa claramente patrimonio de socios y empresa?",
+    options: ["Empresa individual", "SA y SL", "Autonomo sin actividad", "Comunidad de vecinos"],
+    answer: 1
+  },
+  {
+    question: "En la SA, la propiedad de la empresa se representa mediante:",
+    options: ["Participaciones", "Acciones", "Recibos", "Facturas"],
+    answer: 1
+  },
+  {
+    question: "La SL suele encajar mejor en:",
+    options: ["Micro y pymes con socios estables", "Solo empresas publicas", "Solo multinacionales", "Asociaciones deportivas"],
+    answer: 0
+  },
+  {
+    question: "Que forma tiene responsabilidad ilimitada?",
+    options: ["Sociedad anonima", "Sociedad limitada", "Empresa individual", "Sociedad laboral"],
+    answer: 2
+  },
+  {
+    question: "El emprendedor de responsabilidad limitada protege sobre todo:",
+    options: ["Maquinaria", "La vivienda habitual", "La caja diaria", "Las acciones cotizadas"],
+    answer: 1
+  },
+  {
+    question: "La SL Nueva Empresa se caracteriza por:",
+    options: ["Tramites de constitucion simplificados", "Cotizar obligatoriamente en bolsa", "No tener socios", "No pagar impuestos"],
+    answer: 0
+  },
+  {
+    question: "Una cooperativa se fundamenta en:",
+    options: ["Inversion especulativa", "Objetivo comun y colaboracion", "Un unico administrador obligatorio", "Vender acciones en bolsa"],
+    answer: 1
+  },
+  {
+    question: "En una sociedad laboral, la idea principal es:",
+    options: ["No tener trabajadores", "Separar por completo trabajo y propiedad", "Integrar participacion laboral de socios", "Evitar cualquier gestion"],
+    answer: 2
+  },
+  {
+    question: "Que impuesto se asocia de forma general a las sociedades mercantiles?",
+    options: ["IRPF", "Impuesto sobre Sociedades", "IBI", "Tasas universitarias"],
+    answer: 1
+  },
+  {
+    question: "Que impuesto se asocia a la empresa individual segun el repaso?",
+    options: ["Impuesto sobre Sociedades", "IRPF", "Impuesto de sucesiones", "IAE exclusivamente"],
+    answer: 1
+  },
+  {
+    question: "En la SL, la entrada de terceros suele ser mas controlada porque:",
+    options: ["No existen socios", "No hay capital", "Las participaciones no se transmiten libremente", "Depende del ayuntamiento"],
+    answer: 2
+  },
+  {
+    question: "Que forma es mas habitual para grandes proyectos con mucha captacion de capital?",
+    options: ["SA", "Empresa individual", "Cooperativa de consumo pequena", "Autonomo eventual"],
+    answer: 0
+  },
+  {
+    question: "Personalidad juridica propia significa que la sociedad:",
+    options: ["No puede firmar contratos", "Es distinta legalmente de sus socios", "No paga impuestos", "No responde de deudas"],
+    answer: 1
+  },
+  {
+    question: "Que combinacion es correcta?",
+    options: ["SA-participaciones / SL-acciones", "SA-acciones / SL-participaciones", "SA-cuotas / SL-facturas", "SA-bonos / SL-tickets"],
+    answer: 1
+  },
+  {
+    question: "Una ventaja clave de la responsabilidad limitada es:",
+    options: ["Eliminar todos los riesgos", "Limitar la perdida al capital aportado", "No llevar contabilidad", "No pagar ningun tributo"],
+    answer: 1
+  },
+  {
+    question: "SLL y SAL se diferencian principalmente por:",
+    options: ["Una deriva de SL y otra de SA", "Una no tiene socios", "Las dos son cooperativas", "Solo cambian por provincia"],
+    answer: 0
+  },
+  {
+    question: "Que opcion resume mejor la cooperativa?",
+    options: ["Prioriza beneficio de un unico inversor", "No tiene actividad economica", "Proyecto comun con gestion participativa", "Solo existe en agricultura"],
+    answer: 2
+  },
+  {
+    question: "Ademas de la forma juridica, para elegir empresa conviene valorar:",
+    options: ["Responsabilidad, fiscalidad y tramites", "Solo el nombre comercial", "Solo el logo", "Unicamente la oficina"],
+    answer: 0
+  },
+  {
+    question: "La empresa individual suele iniciar actividad con:",
+    options: ["Constitucion societaria compleja siempre", "Menos formalidades iniciales", "Obligacion de accionistas", "Cotizacion bursatil"],
+    answer: 1
+  },
+  {
+    question: "Que frase es correcta sobre deudas en SA/SL?",
+    options: ["Socios responden con todo su patrimonio siempre", "La responsabilidad suele limitarse al capital aportado", "No existen deudas posibles", "Responde el Estado"],
+    answer: 1
+  },
+  {
+    question: "En terminos fiscales, SA y SL comparten normalmente:",
+    options: ["IRPF", "Impuesto sobre Sociedades", "Ningun impuesto", "Solo IVA"],
+    answer: 1
+  },
+  {
+    question: "Que es mas transferible en general?",
+    options: ["Acciones de SA", "Participaciones de SL sin restricciones", "Ninguna forma de capital", "Las nominas"],
+    answer: 0
+  },
+  {
+    question: "El test de esta web evalua principalmente:",
+    options: ["Diseno grafico", "Tipos de empresa y caracteristicas", "Programacion avanzada", "Historia economica mundial"],
+    answer: 1
+  },
+  {
+    question: "Para practicar mejor antes del examen, lo mas util es:",
+    options: ["Hacer una vez el test y ya", "Alternar resumenes y varias tandas de test", "Memorizar solo siglas", "Ignorar feedback"],
+    answer: 1
+  },
+  {
+    question: "Que afirmacion es correcta sobre impuestos en el repaso?",
+    options: ["Solo existe IRPF para cualquier empresa", "No hay diferencias fiscales", "La forma juridica influye en si tributas por IRPF o Sociedades", "Nunca se paga IVA"],
+    answer: 2
+  },
+  {
+    question: "Que tipo de empresa prioriza de forma clara la colaboracion entre socios?",
+    options: ["Cooperativa", "SA cotizada", "Empresa individual", "SL unipersonal"],
+    answer: 0
+  },
+  {
+    question: "Cuando una SL es unipersonal significa que:",
+    options: ["Tiene un solo trabajador", "Tiene un unico socio", "No tiene capital", "Es publica"],
+    answer: 1
+  },
+  {
+    question: "Que opcion NO corresponde a sociedades de capital en este tema?",
+    options: ["SA", "SL", "SL Nueva Empresa", "Empresa individual"],
+    answer: 3
+  },
+  {
+    question: "Una diferencia habitual entre autonomo y sociedad es:",
+    options: ["La existencia de personalidad juridica separada", "El uso de facturas", "La necesidad de clientes", "La actividad economica"],
+    answer: 0
+  },
+  {
+    question: "Si buscas proteger patrimonio personal frente a deudas del negocio, suele convenir:",
+    options: ["Responsabilidad limitada", "Responsabilidad ilimitada", "No inscribirte en nada", "No llevar cuentas"],
+    answer: 0
+  },
+  {
+    question: "Que resumen es correcto sobre SAL?",
+    options: ["Es una cooperativa obligatoriamente", "Es una modalidad laboral de la SA", "Es otra forma de empresa individual", "No tiene socios"],
+    answer: 1
+  },
+  {
+    question: "En la practica, las obligaciones fiscales pueden incluir tambien:",
+    options: ["IVA y tributos locales, segun actividad", "Solo IRPF siempre", "Solo Impuesto sobre Sociedades siempre", "Ninguna obligacion"],
+    answer: 0
+  },
+  {
+    question: "El capital en una SL se divide en:",
+    options: ["Acciones", "Participaciones", "Obligaciones del Estado", "Cupones"],
+    answer: 1
+  },
+  {
+    question: "El capital en una SA se divide en:",
+    options: ["Participaciones", "Acciones", "Cuotas sindicales", "Prestamos bancarios"],
+    answer: 1
+  },
+  {
+    question: "Que aspecto fiscal cambia al pasar de empresa individual a SL?",
+    options: ["De IRPF a Impuesto sobre Sociedades", "De IVA a IBI", "De IAE a IRNR", "No cambia nunca"],
+    answer: 0
+  },
+  {
+    question: "La frase 'misma persona legal negocio-propietario' describe a:",
+    options: ["SA", "SL", "Empresa individual", "SAL"],
+    answer: 2
+  },
+  {
+    question: "Para consolidar conocimientos en esta web conviene:",
+    options: ["Ignorar preguntas falladas", "Repetir test hasta dominar cada bloque", "Hacer solo preguntas de siglas", "No leer resumenes"],
+    answer: 1
   }
 ];
 
@@ -174,7 +380,7 @@ function setBaseState() {
 }
 
 function startQuiz() {
-  quiz = pickRandomQuestions(10);
+  quiz = pickRandomQuestions(15);
   current = 0;
   score = 0;
   locked = false;
