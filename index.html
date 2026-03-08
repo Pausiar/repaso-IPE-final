@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repaso IPE II - Unidad 8</title>
+    <meta
+      name="description"
+      content="Web de repaso para IPE II: resúmenes y test de tipos de empresas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-shape hero-shape-a"></div>
+      <div class="hero-shape hero-shape-b"></div>
+      <div class="container">
+        <p class="eyebrow">IPE II - Unidad 8</p>
+        <h1>Repaso de Tipos de Empresas</h1>
+        <p class="lead">
+          Estudia con resúmenes claros y practica con preguntas tipo test para
+          preparar el examen.
+        </p>
+        <div class="hero-actions">
+          <a href="#resumenes" class="btn btn-primary">Ver resúmenes</a>
+          <a href="#test" class="btn btn-ghost">Empezar test</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="resumenes" class="container section">
+        <div class="section-head">
+          <h2>Resúmenes</h2>
+          <p>Ideas clave del contenido extraído del PDF.</p>
+        </div>
+        <div id="summaryGrid" class="summary-grid"></div>
+      </section>
+
+      <section id="test" class="container section">
+        <div class="section-head">
+          <h2>Tipo Test</h2>
+          <p>
+            Haz un simulacro con 10 preguntas aleatorias. Recibirás feedback en
+            cada respuesta.
+          </p>
+        </div>
+
+        <div class="quiz-shell">
+          <div class="quiz-top">
+            <div>
+              <p class="quiz-meta" id="progressLabel">Pregunta 0 de 0</p>
+              <h3 id="questionText">Pulsa en "Iniciar test" para comenzar.</h3>
+            </div>
+            <span class="score-chip" id="scoreChip">Aciertos: 0</span>
+          </div>
+
+          <div id="options" class="options"></div>
+
+          <p id="feedback" class="feedback" aria-live="polite"></p>
+
+          <div class="quiz-actions">
+            <button id="startBtn" class="btn btn-primary" type="button">
+              Iniciar test
+            </button>
+            <button id="nextBtn" class="btn btn-ghost" type="button" disabled>
+              Siguiente
+            </button>
+            <button id="resetBtn" class="btn btn-ghost" type="button" disabled>
+              Reiniciar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section note">
+        <h2>Nota</h2>
+        <p>
+          Esta web se basa en el texto que se ha podido extraer automáticamente
+          del PDF. Si quieres, puedo ampliarla con más preguntas y resúmenes al
+          añadir un PDF con texto seleccionable u OCR.
+        </p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>Hecho para repasar IPE II de forma rápida y práctica.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
